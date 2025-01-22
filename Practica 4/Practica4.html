@@ -1,11 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Página de Inicio</title>
+    <link rel="stylesheet" href="css/Styles.css">
 </head>
 <body>
-    
+    <!--Cabecera -->
+    <header>
+        <picture>
+            <source srcset="" type="image/webp" media="(min-width: 1024px)">
+            <source srcset="" type="image/webp" media="(min-width: 768px)">
+            <img src="fotos/logo.png" alt="Logo" sizes="(max-width: 600px) 100vw, 50vw">
+        </picture>
+        <nav>
+            <ul>
+                <li><a href="#novedades">Novedades</a></li>
+                <li><a href="#ofertas">Ofertas</a></li>
+                <li><a href="#productos">Productos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Novedades -->
+    <section id="novedades">
+        <h1>Novedades</h1>
+        <video controls autoplay loop muted>
+            <source src="" type="video/mp4">
+            <source src="" type="video/ogg">
+            Tu navegador no soporta el video.
+        </video>
+    </section>
+
+    <!--Ofertas -->
+    <section id="ofertas">
+        <h2>Ofertas</h2>
+        <div class="oferta">Oferta 1</div>
+        <div class="oferta">Oferta 2</div>
+    </section>
+
+    <!--Productos -->
+    <section id="productos">
+        <h2>Productos</h2>
+        <div class="producto">Replicas</div>
+        <div class="producto">Municion</div>
+    </section>
+
+    <!--Pie de Pagina -->
+    <footer>
+        <p>Fabricantes con los que estamos afiliados</p>
+    </footer>
 </body>
 </html>
