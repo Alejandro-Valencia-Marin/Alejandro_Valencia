@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Inicio</title>
+    <link rel="stylesheet" href="css/Styles.css">
+</head>
+<body>
+    <!--Cabecera -->
+    <header>
+        <picture>
+            <source srcset="fotos/logo.png" type="image/webp" media="(min-width: 1024px)">
+            <source srcset="fotos/logo.png" type="image/webp" media="(min-width: 768px)">
+            <img src="fotos/logo.png" alt="Logo" sizes="(max-width: 600px) 100vw, 50vw">
+        </picture>
+        <nav>
+            <ul>
+                <li><a href="#novedades">Novedades</a></li>
+                <li><a href="#ofertas">Ofertas</a></li>
+                <li><a href="#productos">Productos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <audio controls autoplay>
+        <source src=".ogg" type="audio/ogg">
+        <source src=".mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+
+    <!--Novedades -->
+    <section id="novedades">
+        <h1>Novedades</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DFpoz6HsRmU?si=mFW7hfkl0V1f5LIQplaylist=DFpoz6HsRmU&controls=1&mute=1&autoplay=1&loop=1" title="anuncio" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <!--Ofertas -->
+    <section id="ofertas">
+        <h2>Ofertas</h2>
+        <div class="oferta">Oferta 1</div>
+        <div class="oferta">Oferta 2</div>
+    </section>
+
+    <!--Productos -->
+    <section id="productos">
+        <h2>Productos</h2>
+        <div class="producto">Replicas</div>
+        <div class="producto">Municion</div>
+    </section>
+
+    <!--Pie de Pagina -->
+    <footer>
+        <p>Fabricantes con los que estamos afiliados</p>
+    </footer>
+</body>
+</html>
