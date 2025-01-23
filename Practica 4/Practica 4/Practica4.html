@@ -10,22 +10,21 @@
     <!--Cabecera -->
     <header>
         <picture>
-            <source srcset="fotos/logo.png" type="image/webp" media="(min-width: 1024px)">
-            <source srcset="fotos/logo.png" type="image/webp" media="(min-width: 768px)">
+            <source srcset="fotos/logo2.png" type="image/webp" media="(min-width: 1024px)">
+            <source srcset="fotos/logo3.png" type="image/webp" media="(min-width: 768px)">
             <img src="fotos/logo.png" alt="Logo" sizes="(max-width: 600px) 100vw, 50vw">
         </picture>
         <nav>
             <ul>
-                <li><a href="#novedades">Novedades</a></li>
-                <li><a href="#ofertas">Ofertas</a></li>
-                <li><a href="#productos">Productos</a></li>
+                <li><a href="#novedades" id="animacion1">Novedades</a></li>
+                <li><a href="#ofertas" id="animacion1">Ofertas</a></li>
+                <li><a href="#productos" id="animacion1">Productos</a></li>
             </ul>
         </nav>
     </header>
 
-    <audio controls autoplay>
-        <source src=".ogg" type="audio/ogg">
-        <source src=".mp3" type="audio/mpeg">
+    <audio controls autoplay loop>
+        <source src="audio/audio.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
       </audio>
 
@@ -38,8 +37,8 @@
     <!--Ofertas -->
     <section id="ofertas">
         <h2>Ofertas</h2>
-        <div class="oferta">Oferta 1</div>
-        <div class="oferta">Oferta 2</div>
+        <div class="oferta" id="animacion">Oferta 1</div>
+        <div class="oferta" id="animacion">Oferta 2</div>
     </section>
 
     <!--Productos -->

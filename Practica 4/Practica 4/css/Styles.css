@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #0e0d0d;
+    background-color: #f0f0f0;
     color: #333;
 }
 
@@ -34,11 +34,23 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #131212;
     text-decoration: none;
     font-weight: bold;
+    position:relative;
+    animation: head 5s infinite alternate;
 }
 
+@keyframes head {
+    from{
+        background-color: #d0f308;
+        color: #333;
+    }
+    to {
+        background-color: #07a4ff;
+        color: #000;
+    }
+}
 section {
     padding: 20px;
     margin: 20px 0;
@@ -78,6 +90,28 @@ section h1, section h2 {
     background-color: #ffc107;
     transform: scale(1.05);
 }
+
+
+#animacion {
+    animation: resaltar 2s infinite alternate;
+}
+
+@keyframes resaltar {
+    0% {
+        background-color: #ffdd57;
+        color: #333;
+        transform: rotate(0deg);
+    }
+    100% {
+        background-color: #ffc107;
+        color: #000;
+        transform: rotate(5deg);
+    }
+}
+
+
+
+
 
 #productos {
     display: grid;
