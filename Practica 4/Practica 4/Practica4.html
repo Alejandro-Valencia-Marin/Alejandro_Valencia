@@ -23,34 +23,55 @@
         </nav>
     </header>
 
-    <audio controls autoplay loop>
+    <audio autoplay loop>
         <source src="audio/audio.mp3" type="audio/mpeg">
+        <source src="audio/audio.ogg" type="audio/ogg">
       Your browser does not support the audio element.
       </audio>
 
     <!--Novedades -->
     <section id="novedades">
         <h1>Novedades</h1>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/DFpoz6HsRmU?si=mFW7hfkl0V1f5LIQplaylist=DFpoz6HsRmU&controls=1&mute=1&autoplay=1&loop=1" title="anuncio" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+       
+        <video width="320" height="240" controls>
+            <source src="videos/Anuncio.mp4" type="video/mp4">
+            <source src="videos/Anuncio.ogv" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
     </section>
+
+ <!--Anuncio tipico de pagina  -->
+    <iframe  width="320" height="240" src="https://www.youtube.com/embed/qTsjNWglgNk?si=WGz9LRlq5-KkMh9w&playlist=qTsjNWglgNk&controls=1&mute=1&autoplay=1&loop=1"  title="auncio" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> </iframe>
+
+
 
     <!--Ofertas -->
     <section id="ofertas">
         <h2>Ofertas</h2>
         <div class="oferta" id="animacion">Oferta 1</div>
-        <div class="oferta" id="animacion">Oferta 2</div>
+    
+        <div class="oferta" id="animacion">Oferta 2</div> 
+        <img src="fotos/anuncio2.png">
     </section>
 
     <!--Productos -->
     <section id="productos">
         <h2>Productos</h2>
         <div class="producto">Replicas</div>
+
         <div class="producto">Municion</div>
+        
     </section>
 
     <!--Pie de Pagina -->
     <footer>
         <p>Fabricantes con los que estamos afiliados</p>
+        <div class="marcas">
+            <img src="fotos/marca1.png">
+            <img src="fotos/marca2.png">
+            <img src="fotos/marca3.png">
+        </div>
     </footer>
+    
 </body>
 </html>
